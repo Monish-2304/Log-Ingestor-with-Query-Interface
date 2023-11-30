@@ -15,7 +15,7 @@ const App = () => {
   //fetch all logs
   const fetchLogs = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/logs');
+      const response = await axios.get('https://logingestorandqueryinterface.onrender.com/logs');
       setLogs(response.data);
       setFilteredLogs(response.data);
     } catch (error) {
