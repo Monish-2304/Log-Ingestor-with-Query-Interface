@@ -1,5 +1,5 @@
 # Log Ingestor and Query Interface
-
+Live Url: https://log-ingestor-query-interface.netlify.app/
 ## Problem Statement
 Develop a log ingestor system that can efficiently handle vast volumes of log data, and offer a simple interface for querying this data using full-text search or specific field filters.
 
